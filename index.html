@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador [Challenge]</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Decoration.css">
+        
+    </head>
+
+    <body class="background">
+
+        <header>
+            <img style="padding: 20px;" src="Imagenes/Logo.png" alt="logoAlura">
+            <!-- <h1 class="LogoAlura">Alura</h1> -->
+           
+            
+        </header>
+
+        <main>
+                
+            <div class="areaTexto">
+                <textarea class="texto" id="input" onclick="LimpiaCajas()">Escribe tu texto aquí</textarea>
+            </div>
+
+            <h2 class="TituloPrograma">&#8594 No usar mayusculas ni ascentos &#8592</h2>
+        
+
+
+            <div>         
+                <button onclick="copiar()" id="Copiar" disabled>Copiar</button>     
+            </div>  
+
+            
+
+            <div class="Encriptado"> 
+                
+                <textarea id="TextoEncriptado" class="Texto_Encriptado"></textarea>
+                
+            </div>
+            
+
+
+
+
+            <div class="btn">
+                <button onclick="TextoUsuarioEncriptado()" id="Encriptar">Encriptar</button>
+                <button onclick="TextoUsuarioDesencriptado()" id="Desencriptar" disabled>Desencriptar</button>
+            </div>
+
+              
+                
+                
+        
+
+        </main>
+       
+         <script src="Challenge.js"></script>
+    </body>
+
+    <footer>
+        <img class="footer" src="Imagenes/footer.PNG">
+        <div class="TextoSuper">Programador - Cristofer Villalobos Jiménez</div>
+    </footer>
+</html>
